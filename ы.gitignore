@@ -1,0 +1,17 @@
+# Виртуальные окружения Python
+venv/
+.venv/
+env/
+
+# Кэш и скомпилированные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Секреты и переменные окружения
+.env
+
+# Настройки IDE
+.idea/
+.vscode/
+.DS_Store
