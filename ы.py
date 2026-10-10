@@ -31,7 +31,13 @@ print("Твоя мана:", mana)
 choice = input("\nТы видишь кабинет. Войти? (да/нет): ")
 
 if choice == "да":
+    password = "сокровище"
+    answer = input("Введи начало пароля (первые 3 буквы): ").lower().strip()
 
+    if answer == password[0:3]:
+        print("Дверь открылась!")
+    else:
+        print("Неверно. Дверь осталась закрытой.")
     print("\nТам оказался злой перпод")
     enemy_health = 50
 
